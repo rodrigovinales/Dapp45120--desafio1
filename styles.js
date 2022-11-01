@@ -19,39 +19,7 @@ export const styles = StyleSheet.create({
         textAlign: "center",
         justifyContent: "center"
     },
-    header: {
-        fontSize: 35,
-        color: "whitesmoke",
-        backgroundColor: "#808A9B",
-        textAlign: "center",
-    },
-    itemLista: {
-        fontSize: 12,
-        marginLeft: 10,
-        color: "white",
-        // fontWeight: "bold"
-    },
-    modalTitle: {
-        backgroundColor: "#ccc",
-        color: "white",
-        alignItems: "center",
-    },
-    modalHeader: {
-        fontSize: 28
-    },
-    modalMessage: {
-        fontSize: 28,
-        marginBottom: 10,
-        textAlign: "center",
-        justifyContent: "center",
-        alignItems: "center"
-    },
-    modalButton: {
-        marginTop: 15
-    },
-    modalItem: {
-        fontSize: 30
-    },
+    
 
     input: {
         borderBottomWidth: 1,

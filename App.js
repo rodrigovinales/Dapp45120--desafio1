@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { View, Alert } from "react-native";
 import { styles } from "./styles";
+import { StatusBar } from "expo-status-bar";
 
 import AddItem from "./components/AddItem";
 import Header from "./components/Header";
@@ -69,7 +70,9 @@ const App = () => {
                     noDelete={onHandlerSinBorrar}
                 />
             </View>
+            <StatusBar style="light" />
         </View>
+
     );
 }
 
